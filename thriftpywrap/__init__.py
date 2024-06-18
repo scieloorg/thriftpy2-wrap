@@ -8,10 +8,10 @@ import errno
 import os
 import sys
 
-from thriftpy.protocol import TBinaryProtocolFactory
-from thriftpy.server import TThreadedServer
-from thriftpy.thrift import TProcessor
-from thriftpy.transport import (TBufferedTransportFactory, TServerSocket, )
+from thriftpy2.protocol import TBinaryProtocolFactory
+from thriftpy2.server import TThreadedServer
+from thriftpy2.thrift import TProcessor
+from thriftpy2.transport import (TBufferedTransportFactory, TServerSocket, )
 
 __all__ = ['ConsoleApp']
 

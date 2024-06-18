@@ -11,7 +11,7 @@ if sys.version_info[0:2] < (2, 7):
 
 
 install_requires = [
-    'thriftpy >= 0.3.9',
+    'thriftpy2',
 ]
 
 
@@ -20,13 +20,13 @@ tests_require = []
 
 setup(
     name="thriftpywrap",
-    version='0.1.1',
+    version='1.0.0',
     description="Lib to help you build console based thrift servers.",
     long_description=codecs.open('README.rst', mode='r', encoding='utf-8').read(),
     author="SciELO",
     author_email="scielo-dev@googlegroups.com",
-    maintainer="Gustavo Fonseca",
-    maintainer_email="gustavo.fonseca@scielo.org",
+    maintainer="SciELO",
+    maintainer_email="tecnologia@scielo.org",
     license="BSD License",
     url="http://docs.scielo.org",
     packages=find_packages(),
@@ -43,4 +43,3 @@ setup(
     test_suite='tests',
     install_requires=install_requires,
 )
-
